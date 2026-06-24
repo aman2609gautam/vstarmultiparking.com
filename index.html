@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- =====================================================
+         BASIC SEO & META CONFIGURATION
+         ===================================================== -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="VStar Multiparking Systems">
+    <meta name="robots" content="index, follow">
+
+    <title>VStar Multiparking Systems | Multi Car Parking Solutions Mumbai</title>
+
+    <meta name="description"
+          content="VStar Multiparking Systems provides automated, stack, puzzle and tower car parking solutions in Mumbai and across India.">
+
+    <meta name="keywords"
+          content="multi car parking system, automated parking Mumbai, stack parking, puzzle parking">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.png" type="image/png">
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<!-- =====================================================
+     HEADER
+     ===================================================== -->
+<header class="site-header">
+
+    <div class="logo">
+        <a href="index.html">
+            <img src="images/logo.png"
+                 alt="VStar Multiparking Systems Logo"
+                 loading="lazy">
+
+            <div class="logo-text">
+                <span class="brand-name">VStar Multiparking Systems</span>
+                <span class="tagline">LIMITLESS INNOVATION</span>
+            </div>
+        </a>
+    </div>
+
+    <button class="menu-toggle"
+            aria-label="Toggle navigation menu"
+            aria-expanded="false">
+        ☰
+    </button>
+
+    <nav class="nav-menu">
+        <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="projects.html">Projects</a>
+    <a href="about.html">About Us</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="careers.html">Careers</a>
+    <a href="contact.html">Contact</a>
+    </nav>
+
+</header>
+
+<main>
+
+<!-- =====================================================
+     HERO SECTION
+     ===================================================== -->
+<section class="hero">
+    <h2>Smart & Space-Efficient Multi Car Parking Solutions</h2>
+</section>
+
+<!-- =====================================================
+     ABOUT US
+     ===================================================== -->
+<section>
+    <h3 class="section-title">About Us</h3>
+    <p>
+        VStar Multiparking Systems is headquartered in Mumbai and specializes in
+        advanced multi-level and automated parking systems for residential,
+        commercial, and industrial projects across India.
+    </p>
+</section>
+
+<!-- =====================================================
+     PRODUCTS PREVIEW
+     ===================================================== -->
+<section>
+    <h3 class="section-title">Our Parking Systems</h3>
+
+    <div class="grid">
+
+        <!-- Stack Parking -->
+        <div class="card">
+            <img src="images/stack.jpg"
+                 alt="Stack Parking System"
+                 loading="lazy">
+            <h4>Stack Parking System</h4>
+            <p>Cost-effective solution for homes and apartments.</p>
+        </div>
+
+        <!-- Puzzle Parking -->
+        <div class="card">
+            <img src="images/puzzle.webp"
+                 alt="Puzzle Parking System"
+                 loading="lazy">
+            <h4>Puzzle Parking System</h4>
+            <p>Ideal for medium to large commercial buildings.</p>
+        </div>
+
+        <!-- Tower Parking -->
+        <div class="card">
+            <img src="images/tower.jpg"
+                 alt="Tower Parking System"
+                 loading="lazy">
+            <h4>Tower Parking System</h4>
+            <p>Vertical parking for high-density urban areas.</p>
+        </div>
+
+        <!-- Cantilever Stack Parking -->
+        <div class="card">
+            <img src="images/cantilever.jpg"
+                 alt="Cantilever Stack Parking"
+                 loading="lazy">
+            <h4>Cantilever Stack Parking</h4>
+            <p>Flexible stacking system for tight spaces.</p>
+        </div>
+
+        <!-- Bike Stack Parking -->
+        <div class="card">
+            <img src="images/bike-stack.jpeg"
+                 alt="Bike Stack Parking"
+                 loading="lazy">
+            <h4>Bike Stack Parking</h4>
+            <p>Multi-level bike parking for apartments & offices.</p>
+        </div>
+
+        <!-- Bike Tower Parking -->
+        <div class="card">
+            <img src="images/bike-tower.jpg"
+                 alt="Bike Tower Parking"
+                 loading="lazy">
+            <h4>Bike Tower Parking</h4>
+            <p>Vertical parking solution for two-wheelers.</p>
+        </div>
+
+        <!-- Rotary Parking -->
+        <div class="card">
+            <img src="images/rotary.jpg"
+                 alt="Rotary Parking System"
+                 loading="lazy">
+            <h4>Rotary Parking System</h4>
+            <p>Rotating lift system to park multiple cars efficiently.</p>
+        </div>
+
+        <!-- Shuttle Parking -->
+        <div class="card">
+            <img src="images/shuttle.jpg"
+                 alt="Shuttle Parking System"
+                 loading="lazy">
+            <h4>Shuttle Parking System</h4>
+            <p>Fully automated shuttle system for large commercial areas.</p>
+        </div>
+
+    </div>
+</section>
+
+
+</main>
+
+<!-- =====================================================
+     WHATSAPP BUTTON
+     ===================================================== -->
+<a class="whatsapp"
+   href="https://wa.me/91XXXXXXXXXX"
+   target="_blank"
+   aria-label="Chat with VStar on WhatsApp">
+    💬 WhatsApp Us
+</a>
+
+<!-- =====================================================
+     FOOTER
+     ===================================================== -->
+<footer>
+    © 2026 VStar Multiparking Systems | Mumbai
+</footer>
+
+<!-- =====================================================
+     JAVASCRIPT
+     ===================================================== -->
+<script>
+    const toggleBtn = document.querySelector('.menu-toggle');
+    const navMenu = document.querySelector('.nav-menu');
+
+    toggleBtn.addEventListener('click', () => {
+        navMenu.classList.toggle('active');
+        toggleBtn.setAttribute(
+            'aria-expanded',
+            navMenu.classList.contains('active')
+        );
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- =====================================================
+         BASIC SEO & META CONFIGURATION
+    ===================================================== -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="VStar Multiparking Systems">
+    <meta name="robots" content="index, follow">
+
+    <title>Projects | VStar Multiparking Systems</title>
+
+    <meta name="description"
+          content="View completed and ongoing multi car parking projects by VStar Multiparking Systems in Mumbai and across India.">
+
+    <meta name="keywords"
+          content="multi car parking projects, stack parking installation, puzzle parking projects, automated parking">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.png" type="image/png">
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<!-- =====================================================
+     HEADER
+===================================================== -->
+<header class="site-header">
+
+    <div class="logo">
+        <a href="index.html">
+            <img src="images/logo.png"
+                 alt="VStar Multiparking Systems Logo"
+                 loading="lazy">
+            <div class="logo-text">
+                <span class="brand-name">VStar Multiparking Systems</span>
+                <span class="tagline">LIMITLESS INNOVATION</span>
+            </div>
+        </a>
+    </div>
+
+    <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        ☰
+    </button>
+
+    <nav class="nav-menu">
+        <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="projects.html">Projects</a>
+    <a href="about.html">About Us</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="careers.html">Careers</a>
+    <a href="contact.html">Contact</a>
+    </nav>
+
+</header>
+
+<main>
+
+<!-- =====================================================
+     PROJECTS SECTION
+===================================================== -->
+<section>
+    <h3 class="section-title">Our Projects</h3>
+
+    <div class="grid">
+
+        <!-- Project Card 1 -->
+        <div class="card">
+            <img src="images/residential-mumbai.jpg" alt="Residential Apartment – Mumbai" loading="lazy">
+            <h4>Residential Apartment – Mumbai</h4>
+            <p>
+                Stack parking system installation for 60 vehicles,
+                designed to maximize basement parking efficiency.
+            </p>
+        </div>
+
+        <!-- Project Card 2 -->
+        <div class="card">
+            <img src="images/commercial-pune.jpg" alt="Commercial Complex – Pune" loading="lazy">
+            <h4>Commercial Complex – Pune</h4>
+            <p>
+                Puzzle parking system with semi-automation,
+                improving parking capacity and vehicle flow.
+            </p>
+        </div>
+
+        <!-- Project Card 3 -->
+        <div class="card">
+            <img src="images/hospital-navi-mumbai.jpg" alt="Hospital Facility – Navi Mumbai" loading="lazy">
+            <h4>Hospital Facility – Navi Mumbai</h4>
+            <p>
+                Automated parking solution ensuring quick vehicle
+                retrieval and high safety standards.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+</main>
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+<footer>
+    © 2026 VStar Multiparking Systems | Mumbai
+</footer>
+
+<!-- =====================================================
+     JAVASCRIPT (Mobile Menu Toggle)
+===================================================== -->
+<script>
+const toggleBtn = document.querySelector('.menu-toggle');
+const navMenu = document.querySelector('.nav-menu');
+
+toggleBtn.addEventListener('click', () => {
+    navMenu.classList.toggle('active');
+    toggleBtn.setAttribute(
+        'aria-expanded',
+        navMenu.classList.contains('active')
+    );
+});
+</script>
+
+</body>
+</html>
+
